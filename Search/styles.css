@@ -1,0 +1,170 @@
+#links{
+    text-align: right;
+}
+
+form{
+    
+    margin-top:250px;
+    text-align: center;
+
+}
+
+#searchbox{
+    width: 450px; 
+    height: 30px; 
+    border-radius: 25px; 
+    border: 1px solid;
+    border-color:lightgrey;
+}
+
+#search{
+    margin-top: 30px; 
+    width: 150px; 
+    height: 30px; 
+    color:dimgray;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 25px;
+}
+
+#search:hover{
+   border-color: darkgrey;
+}
+
+.center {
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    margin-bottom: -200px;
+  }
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#images{
+    margin-bottom: -200px;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    
+    
+}
+
+#images-advanced{
+
+    height: 30px;
+    width: auto;
+
+}
+
+h2{
+    color:brown;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: normal;
+    
+}
+
+label{
+    text-align: left;
+    margin-left: 50px;
+    display: inline-block;
+    width: 23%;
+}
+
+#advanced{
+
+    margin-top: 40px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 35px;
+    align-items: center;
+
+    
+}
+
+.whitespace{
+    display: inline-block;
+    width: 50%;
+}
+
+.form-group .clarification{
+    display: inline-block;
+}
+
+.form-group{
+    font-size: smaller;
+    
+}
+
+.form-group .monospace{
+    font-family: monospace;;
+}
+
+
+.form-group .blue-button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    height: 30px;
+    margin-left: 40%;
+
+}
+
+.form-group input[type="text"]{
+    display:inline-block;
+    
+    width: 40%;
+    border-color:lightgrey solid;
+    height: 20px;
+    
+}
+
+.blue-button:hover{
+    background-color:#3091ed;
+ }
+
+ /* Adapted from Gen1a on Github. */
+ input[type=text] {
+    /* Give input text a lighter color */
+    color: #464646;
+    margin: 0 0 0 5px;
+    
+  }
+
+  input[type=submit] {
+    font-size: 14px;
+    width: 185px;
+    /* Remove border */
+    border-width: 0px;
+    border-radius: 15px;
+    margin: 20px;
+  }
+
+  
+
+  input[type=submit]:hover {
+    /* Add box-shadow when hovering button (border adds space) */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+  }

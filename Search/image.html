@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- SET VIEWPORT -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google Images</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="links">
+            <a href="index.html">Google Search</a>
+        </div>
+        <img id="images" src="images.svg.png" alt="logo">
+
+        <!-- SEARCH CONTAINER START -->
+        <form action="https://www.google.com/search" method="get">
+            <input id="searchbox" type="text" name="q"><br>
+            <input type="submit" id="search" value="Google Search">
+            <input type="hidden" name="tbm" value="isch">
+        </form>
+        <!-- SEARCH CONTAINER END -->
+    </body>
+</html>
