@@ -1,3 +1,0 @@
-#Nintendo
-
-Good company
